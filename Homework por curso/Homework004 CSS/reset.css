@@ -1,0 +1,59 @@
+/* reset.css */
+
+/* Eliminar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer una fuente consistente para todo el documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Eliminar estilos predeterminados de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Eliminar espacios predeterminados de tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Eliminar estilos predeterminados de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Establecer estilos predeterminados para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reiniciar estilos de botones */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Eliminar estilos predeterminados de formularios */
+input, textarea {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    width: 100%;
+}
+
+/* Añadir cualquier reinicio adicional según sea necesario */

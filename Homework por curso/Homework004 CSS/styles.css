@@ -1,0 +1,68 @@
+body{
+    background-color: beige;
+}
+
+article{
+    background-color: antiquewhite;
+}
+
+.tittle{
+    font-size: 2,5em;
+    font-style: italic;
+    color: rgb(46, 8, 3);
+    
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 1em;
+    transition: 1s;
+}
+
+.cards:hover{
+    background-color: black;
+}
+
+#cardscontainer{
+    
+    
+    width: fit-content;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    display: flex;
+    /* Flexdirection le da la direccion
+    justify-content: flex-start; o end; marca si esta pegado al inicio o al final del border 
+    justify-content: space-around; le da el mismo espacio a todos a su alrededor
+    justify-content: space-between; es entre ellos
+    justify-content: space-evenly; la misma distancia del borde y el elemento siguiente
+      */
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+
+
+}
+
+#principal{
+    font-style: inherit;
+    
+}
+
+#Titulonoticias{
+    border: 1em solid black;
+    /* Viewport width: tamaño en porcentaje*/
+    width: 60vw;
+    margin: auto;
+    padding: 1em;
+    
+}
+
+#Botonesup{
+    width: 10vw;
+    margin: auto;
+    padding: 1em;
+}
